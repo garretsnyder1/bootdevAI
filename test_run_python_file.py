@@ -1,4 +1,4 @@
-from functions.run_python_file import run_python_file
+from functions.run_python import run_python_file
 
 test1 = [run_python_file("calculator", "main.py"), "calculator", "main.py"]
 test2 = [run_python_file("calculator", "main.py", ["3 + 5"]), "calculator", "main.py with [3+5]"]

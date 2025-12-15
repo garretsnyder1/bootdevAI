@@ -1,4 +1,4 @@
-from functions.write_file import write_file
+from functions.write_file_content import write_file
 
 test1 = [write_file("calculator", "lorem.txt", "wait, this isn't lorem ipsum"), "calculator/lorem.txt", "lorem.txt"]
 test2 = [write_file("calculator", "pkg/morelorem.txt", "lorem ipsum dolor sit amet"), "calculator/pgk/morelorem.txt", "morelorem.txt"]
